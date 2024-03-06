@@ -1,0 +1,5 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+tp_junit,com.example,EmptyListException,0,3,0,0,0,1,0,1,0,1
+tp_junit,com.example,ListManipulator,35,0,0,0,8,0,2,0,2,0
+tp_junit,com.example,MyUnsortedList.Link,0,6,0,0,0,3,0,1,0,1
+tp_junit,com.example,MyUnsortedList,1,272,2,36,0,74,2,30,0,13

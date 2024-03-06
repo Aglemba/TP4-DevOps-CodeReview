@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.MyUnsortedListTest" time="0.202" tests="57" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/mnt/c/Users/adrie/Desktop/Cours/Master INFO/S8/DevOps/TP3-Junit/tp_junit/target/test-classes:/mnt/c/Users/adrie/Desktop/Cours/Master INFO/S8/DevOps/TP3-Junit/tp_junit/target/classes:/home/aglemba/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/home/aglemba/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/home/aglemba/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/aglemba/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/home/aglemba/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/aglemba/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/home/aglemba/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/home/aglemba/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="Unknown"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/mnt/c/Users/adrie/Desktop/Cours/Master INFO/S8/DevOps/TP3-Junit/tp_junit/target/surefire/surefirebooter11548778425612267254.jar /mnt/c/Users/adrie/Desktop/Cours/Master INFO/S8/DevOps/TP3-Junit/tp_junit/target/surefire 2024-02-22T12-42-02_455-jvmRun1 surefire3000355266143752443tmp surefire_02333909542281485010tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/mnt/c/Users/adrie/Desktop/Cours/Master INFO/S8/DevOps/TP3-Junit/tp_junit/target/test-classes:/mnt/c/Users/adrie/Desktop/Cours/Master INFO/S8/DevOps/TP3-Junit/tp_junit/target/classes:/home/aglemba/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/home/aglemba/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/home/aglemba/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/aglemba/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/home/aglemba/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/aglemba/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/home/aglemba/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/home/aglemba/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/aglemba"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/mnt/c/Users/adrie/Desktop/Cours/Master INFO/S8/DevOps/TP3-Junit/tp_junit"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/mnt/c/Users/adrie/Desktop/Cours/Master INFO/S8/DevOps/TP3-Junit/tp_junit/target/surefire/surefirebooter11548778425612267254.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.9+9-Ubuntu-122.04"/>
+    <property name="user.name" value="aglemba"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.15.133.1-microsoft-standard-WSL2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/aglemba/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="Unknown"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.9"/>
+    <property name="user.dir" value="/mnt/c/Users/adrie/Desktop/Cours/Master INFO/S8/DevOps/TP3-Junit/tp_junit"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="java.vm.version" value="17.0.9+9-Ubuntu-122.04"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testPopSingleElement" classname="com.example.MyUnsortedListTest" time="0.104"/>
+  <testcase name="testPopLastSingleElement" classname="com.example.MyUnsortedListTest" time="0.001"/>
+  <testcase name="testOfWithIterable" classname="com.example.MyUnsortedListTest" time="0.001"/>
+  <testcase name="testRemoveAllReverse" classname="com.example.MyUnsortedListTest" time="0.001"/>
+  <testcase name="testRemoveAllAndAppendAndRemove" classname="com.example.MyUnsortedListTest" time="0"/>
+  <testcase name="testPopLastEmptyList" classname="com.example.MyUnsortedListTest" time="0.011"/>
+  <testcase name="testEqualsSingleElementLists" classname="com.example.MyUnsortedListTest" time="0.005"/>
+  <testcase name="testRemoveAllAndAppendAndRemoveAll" classname="com.example.MyUnsortedListTest" time="0.001"/>
+  <testcase name="testSizeAfterPrepend" classname="com.example.MyUnsortedListTest" time="0.001"/>
+  <testcase name="testInsertIndexEqualToSize" classname="com.example.MyUnsortedListTest" time="0.001"/>
+  <testcase name="testSize" classname="com.example.MyUnsortedListTest" time="0.001"/>
+  <testcase name="testInsertMixedAdd" classname="com.example.MyUnsortedListTest" time="0"/>
+  <testcase name="testEqualsMultipleElementsLists" classname="com.example.MyUnsortedListTest" time="0"/>
+  <testcase name="testEqualsDifferentSize" classname="com.example.MyUnsortedListTest" time="0"/>
+  <testcase name="testOf" classname="com.example.MyUnsortedListTest" time="0.001"/>
+  <testcase name="testRemoveFirstElement" classname="com.example.MyUnsortedListTest" time="0"/>
+  <testcase name="testMultipleAppend" classname="com.example.MyUnsortedListTest" time="0"/>
+  <testcase name="testPrepend" classname="com.example.MyUnsortedListTest" time="0"/>
+  <testcase name="testEqualsDifferentLists" classname="com.example.MyUnsortedListTest" time="0"/>
+  <testcase name="testEqualsDifferentType2" classname="com.example.MyUnsortedListTest" time="0.001"/>
+  <testcase name="testEqualsNull" classname="com.example.MyUnsortedListTest" time="0.001"/>
+  <testcase name="testMultipleRemove" classname="com.example.MyUnsortedListTest" time="0.001"/>
+  <testcase name="testRemoveIndexEqualToSize" classname="com.example.MyUnsortedListTest" time="0.001"/>
+  <testcase name="testSizeAfterMixedAddAndRemove" classname="com.example.MyUnsortedListTest" time="0"/>
+  <testcase name="testPopLastMultipleElements" classname="com.example.MyUnsortedListTest" time="0"/>
+  <testcase name="testRemoveLastElement" classname="com.example.MyUnsortedListTest" time="0"/>
+  <testcase name="testIsNotEmpty" classname="com.example.MyUnsortedListTest" time="0"/>
+  <testcase name="testInsertMultipleElements" classname="com.example.MyUnsortedListTest" time="0"/>
+  <testcase name="testEqualsMultipleElementsListsDifferentOrder" classname="com.example.MyUnsortedListTest" time="0.001"/>
+  <testcase name="testInsertNegativeIndex" classname="com.example.MyUnsortedListTest" time="0"/>
+  <testcase name="testToStringEmptyList" classname="com.example.MyUnsortedListTest" time="0"/>
+  <testcase name="testEqualsDifferentTypeEmpty" classname="com.example.MyUnsortedListTest" time="0.001"/>
+  <testcase name="testOfWithoutElements" classname="com.example.MyUnsortedListTest" time="0"/>
+  <testcase name="testRemoveEmptyList" classname="com.example.MyUnsortedListTest" time="0.001"/>
+  <testcase name="testToStringMultipleElementsList" classname="com.example.MyUnsortedListTest" time="0.001"/>
+  <testcase name="testEqualsSameList" classname="com.example.MyUnsortedListTest" time="0"/>
+  <testcase name="testPopEmptyList" classname="com.example.MyUnsortedListTest" time="0.001"/>
+  <testcase name="testInsertEmptyList" classname="com.example.MyUnsortedListTest" time="0"/>
+  <testcase name="testPopMultipleElements" classname="com.example.MyUnsortedListTest" time="0.001"/>
+  <testcase name="testOfWithEmptyIterable" classname="com.example.MyUnsortedListTest" time="0.001"/>
+  <testcase name="testAppend" classname="com.example.MyUnsortedListTest" time="0"/>
+  <testcase name="testInsertSingleElement" classname="com.example.MyUnsortedListTest" time="0"/>
+  <testcase name="testRemoveInvalidIndex" classname="com.example.MyUnsortedListTest" time="0.001"/>
+  <testcase name="testAddElementAtPosition" classname="com.example.MyUnsortedListTest" time="0.001"/>
+  <testcase name="testAddElementAtPosition2" classname="com.example.MyUnsortedListTest" time="0"/>
+  <testcase name="testMultiplePrepend" classname="com.example.MyUnsortedListTest" time="0"/>
+  <testcase name="testEqualsEmptyLists" classname="com.example.MyUnsortedListTest" time="0"/>
+  <testcase name="testSizeAfterMixedAddAndRemoveAll" classname="com.example.MyUnsortedListTest" time="0"/>
+  <testcase name="testIsEmpty" classname="com.example.MyUnsortedListTest" time="0.001"/>
+  <testcase name="testSizeAfterMixedAddAndRemoveAllAndAdd" classname="com.example.MyUnsortedListTest" time="0"/>
+  <testcase name="testRemove" classname="com.example.MyUnsortedListTest" time="0"/>
+  <testcase name="testToStringSingleElementList" classname="com.example.MyUnsortedListTest" time="0.001"/>
+  <testcase name="testRemoveAllAndAppend" classname="com.example.MyUnsortedListTest" time="0"/>
+  <testcase name="testSizeAfterMixedAdd" classname="com.example.MyUnsortedListTest" time="0"/>
+  <testcase name="testRemoveAll" classname="com.example.MyUnsortedListTest" time="0"/>
+  <testcase name="testRemoveNegativeIndex" classname="com.example.MyUnsortedListTest" time="0"/>
+  <testcase name="testInsertInvalidIndex" classname="com.example.MyUnsortedListTest" time="0"/>
+</testsuite>
